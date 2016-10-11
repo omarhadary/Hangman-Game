@@ -1,0 +1,28 @@
+/*-------------header--------------*/
+html {
+    background-color: #1E90FF;
+}
+
+.page-header {
+    background-color: #005A9C;
+    margin-top: -1.3%;
+    padding: 4%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto',sans-serif;
+}
+
+small {
+    font-family: 'Indie Flower',cursive;
+}
+
+/*--------main section------*/
+.container-fluid {
+    background-color: #1E90FF;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    margin: -4%;
+    padding: 4%;
+}

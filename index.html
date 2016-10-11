@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman Game</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity=
+    "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto"
+    rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="page-header">
+        <h1>Hangman <small>L.A. Streets</small></h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"><img alt="Responsive image" class=
+            "img-responsive" src="images/LA.jpg"></div>
+            <div class="col-md-3">
+                <h3>PRESS ANY KEY TO GET STARTED!</h3>
+                <h4>Wins</h4>
+                <div id="user-wins"></div>
+                <h4>CURRENT WORD</h4>
+                <div id="the-word"></div>
+                <h4>NUMBER OF GUESSES REMAINING</h4>
+                <div id="guesses-remaining"></div>
+                <h4>LETTERS ALREADY GUESSED</h4>
+                <div id="already-guessed"></div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <script src="javascript/game.js" type="text/javascript">
+    </script>
+</body>
+</html>
